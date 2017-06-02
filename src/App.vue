@@ -10,11 +10,12 @@
     md-button.md-raised(@click.native="$router.push('/')") Hello
     md-button.md-raised.md-accent(@click.native="$router.push('/test')") Test
   
-  p Material icons:
-    md-icon build
-    md-icon copyright
-    md-icon g_translate
-  
+  p Check that Material icons work:
+    
+  md-icon build
+  md-icon copyright
+  md-icon g_translate
+
   router-view
     
 </template>
